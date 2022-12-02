@@ -6,6 +6,27 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background: #fefcf3;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+button {
+	border: none;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
 }
 
 code {
